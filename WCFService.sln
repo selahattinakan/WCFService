@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34525.116
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WCFService", "WCFService\WCFService.csproj", "{B50C17E7-CFFE-4C33-A831-E6ACDBC2E66C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RateApp", "RateApp\RateApp.csproj", "{1DEA5DFA-43E3-4268-8196-BE0986A032F2}"
+	ProjectSection(ProjectDependencies) = postProject
+		{B50C17E7-CFFE-4C33-A831-E6ACDBC2E66C} = {B50C17E7-CFFE-4C33-A831-E6ACDBC2E66C}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B50C17E7-CFFE-4C33-A831-E6ACDBC2E66C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B50C17E7-CFFE-4C33-A831-E6ACDBC2E66C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B50C17E7-CFFE-4C33-A831-E6ACDBC2E66C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B50C17E7-CFFE-4C33-A831-E6ACDBC2E66C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1DEA5DFA-43E3-4268-8196-BE0986A032F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1DEA5DFA-43E3-4268-8196-BE0986A032F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1DEA5DFA-43E3-4268-8196-BE0986A032F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1DEA5DFA-43E3-4268-8196-BE0986A032F2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B3BE794F-9C5C-4928-8284-C69EE1C09192}
+	EndGlobalSection
+EndGlobal
